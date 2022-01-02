@@ -1,0 +1,29 @@
+{
+  "name": "node-redis-pubsub",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Testing Node Redis PubSub",
+  "main": "index.js",
+  "dependencies": {
+    "@tinyhttp/app": "^2.0.15",
+    "ioredis": "^4.28.2",
+    "milliparsec": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "node @/pub/index.js",
+    "sub": "node @/sub/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stdioh321/node-redis-pubsub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stdioh321/node-redis-pubsub/issues"
+  },
+  "homepage": "https://github.com/stdioh321/node-redis-pubsub#readme"
+}
